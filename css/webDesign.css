@@ -1,0 +1,49 @@
+.web-top-card {
+  width: 1111px;
+  height: 252px;
+  margin-top: 69px;
+  padding-top: 4px;
+  background-image: url(/static/images/webDesign/web-bgImg-top.png);
+}
+.web-card2 {
+  height: 988px;
+  margin-top: 160px;
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.web-card2__card1 {
+  width: 350px;
+  height: 478px;
+  margin-left: 18px;
+}
+.web-express{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 32px;
+    color: #E7816B;
+    
+}
+.web-express-desk{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    color: #333136;
+
+}
+.web-card3{
+    margin-top: 160px;
+    display: flex;
+    gap:30px
+}
+.web-footer{
+    margin: 0 auto;
+    margin-left: -150px;
+}
+.grafic-card2{
+    height: 478px;
+}

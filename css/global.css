@@ -1,0 +1,104 @@
+:root {
+  --peach: #e7816b;
+  --black: #1d1c1e;
+  --lightpeach: #ffad9b;
+  --darkgray: #333136;
+}
+/* jost-regular - latin */
+@font-face {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/static/fonts/jost-v15-latin-regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  src: url("/static/fonts/jost-v15-latin-500.woff2") format("woff2");
+}
+/* jost-700 - latin */
+@font-face {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/static/fonts/jost-v15-latin-700.woff2") format("woff2");
+}
+img:hover{
+  cursor: pointer;
+  opacity:84%;
+  transition: all 1s ease-out;
+}
+
+.container {
+  max-width: 1111px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Jost";
+  font-weight: 300;
+}
+.btn {
+  width: 152px;
+  height: 56px;
+  top: 594px;
+  left: 260px;
+  gap: 0px;
+  opacity: 0px;
+  border: none;
+  background-color: white;
+  border-radius: 10px;
+  color: #333136;
+  font-weight: 500;
+}
+.btn:hover {
+  opacity: 40%;
+  transition: all 1s ease-out;
+}
+a{
+  color:white
+}
+a:hover {
+  opacity: 40%;
+  transition: all 1s ease-out;
+}
+.footer-card1 {
+  height: 292px;
+  top: 2327px;
+  background-image: url(/static/images/home/footer-bg-img.png);
+  margin-top: 160px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.footer{
+  margin: 0 auto;
+  width: 1440px;
+  height: 393px;
+  margin: 0 auto;
+  background-color:var(--black);
+  z-index: 0;
+}
+.footer__Card11{
+  position:absolute;
+  margin-top: 140px;
+  margin-left: 165px;
+  width: 1111px;
+  height: 177px;
+}
+.footer-nav{
+  color:white
+}
+.footer-menu{
+  display: flex;
+  justify-content: space-between;
+}
+.footer-hr{
+  margin-top: 15px;
+  height: 1px;
+  opacity: 10%;
+  width: 1111px;
+  background-color:white
+}
